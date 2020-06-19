@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchanger</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    
+    <header>
+        <img src="money.png" alt="" class="logo">
+        <h1>Exchanger</h1>
+        <p>Выбери валюты и сумму, чтобы узнать обменный курс</p>
+    </header>
+    <section class="container">
+        <div class="currency">
+            <select name="currency_one" id="currency_one">
+                <option value="USD" selected >USD</option>
+                <option value="RUB">RUB</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" id="sum_one" placeholder="0" value="1">
+        </div>
+        <div class="container_swap">
+            <button class="swap" id="swap">Swap</button>
+            <div class="value_str" id="value_str">1 USD = 1 USD </div>
+        </div>
+        <div class="currency">
+            <select name="currency_two" id="currency_two">
+                <option value="USD">USD</option>
+                <option value="RUB" selected >RUB</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" id="sum_two" placeholder="0">
+        </div>
+    </section>
+    
+
+    <!-- js -->
+    <script src="app.js"></script>
+</body>
+</html>
