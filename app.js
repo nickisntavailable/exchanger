@@ -30,7 +30,6 @@ sumTwo.addEventListener('input', calculate);
 
 console.log('hello man!');
 console.log('hello man!');
-console.log('hello man!');
 
 swap.addEventListener('click', () => {
     let temp = curOneEl.value;
