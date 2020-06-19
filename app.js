@@ -27,6 +27,9 @@ sumOne.addEventListener('input', calculate);
 curTwoEl.addEventListener('change', calculate);
 sumTwo.addEventListener('input', calculate);
 
+
+console.log('hello man!');
+
 swap.addEventListener('click', () => {
     let temp = curOneEl.value;
     curOneEl.value = curTwoEl.value;
